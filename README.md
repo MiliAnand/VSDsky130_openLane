@@ -7,6 +7,9 @@ OpenLANE is an automated RTL2GDSII flow which comprises many other EDA tools out
 * DAY2
 * DAY3
 
+## DAY1
+
+
 
 
 
