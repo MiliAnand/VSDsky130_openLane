@@ -41,7 +41,7 @@ once the synthesis is complete you get the slack report of min and max paths of 
 ### Good floorplan vs bad floorplan and introduction to library cells
 The day 2 started of with the concepts of defining width and height of core and die followed by explanation of utilisation factor i.e *ratio of area occupied by netlist and total area of the core* as well as aspect ratio which ratio of *height and width*. Explanation on preplaced cell was given which are basically macros and IP's that are implemented once (i.e placed only once on the chip) and can be instantiated multiple number of times onto a netlist. This has to be done before routing. The locations of preplace cells are fixed. We also surroundthese cells with decoupling to avoid crosstalk.
 Then the concept of powerplanning was explained where we learnt the concept of ground bounce and also why we use a mesh like structure ( multiple power supply) for pwer supply.
-And later the concepts of pin placement was given.
+And later the concepts of placement was given where we  learnt about netlist binding , cell design and characterization flow.
 
 During the lab sessions we were given the method to make runs folder with a custom folder name which actually saves all the activities using command :
 
@@ -65,6 +65,13 @@ Then we fix the utilization factor, aspect ratio, the i/o pins and provide decap
 ![](DAY2/op7.png)
 
 #### Layout
+
+![](DAY2/op8.png)
+
+Here, we are doing condition related placement i.e we are not considering timing. Placement occurs in two stages 1) global 2) detailed. To run placement use 
+
+`run_placement`
+
 
 
 
