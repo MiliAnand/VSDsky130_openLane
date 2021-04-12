@@ -58,6 +58,15 @@ Then we fix the utilization factor, aspect ratio, the i/o pins and provide decap
 
 `run_floorplan`
 
+![](DAY2/op6.png)
+
+#### Envoke the Magic tool to view the layout by proving lef, tech library and def file.
+
+![](DAY2/op7.png)
+
+#### Layout
+
+
 
  
 
