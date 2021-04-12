@@ -51,6 +51,17 @@ We can calso overwrite flag using :
 
 `prep -design picorv32a -tag <file_name> -overwrite`
 
+![](DAY2/op5.png)
+
+Before running the floorplan we observed the default floorplan config file, config.tcl and sky130A config file. The precedency of these files are **Sky130A config file> config.tcl> default floorplan config file**. Which means that any changes in **Sky130A config file** will overwrite the changes made in the other two. 
+Then we fix the utilization factor, aspect ratio, the i/o pins and provide decap cells and welltap cells. To run the floorplan we use :
+
+`run_floorplan`
+
+
+ 
+
+
 
 
 
