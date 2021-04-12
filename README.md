@@ -31,6 +31,27 @@ The day 1 started off with explanation of chip as a package and various MACROS i
 
 #### Running synthesis
 
+Use `run_synthesis` 
+
+![](DAY1/op4.png)
+
+once the synthesis is complete you get the slack report of min and max paths of clock
+
+## DAY-2
+### Good floorplan vs bad floorplan and introduction to library cells
+The day 2 started of with the concepts of defining width and height of core and die followed by explanation of utilisation factor i.e *ratio of area occupied by netlist and total area of the core* as well as aspect ratio which ratio of *height and width*. Explanation on preplaced cell was given which are basically macros and IP's that are implemented once (i.e placed only once on the chip) and can be instantiated multiple number of times onto a netlist. This has to be done before routing. The locations of preplace cells are fixed. We also surroundthese cells with decoupling to avoid crosstalk.
+Then the concept of powerplanning was explained where we learnt the concept of ground bounce and also why we use a mesh like structure ( multiple power supply) for pwer supply.
+And later the concepts of pin placement was given.
+
+During the lab sessions we were given the method to make runs folder with a custom folder name which actually saves all the activities using command :
+
+`prep -design picorv32a -tag <file_name>`
+
+We can calso overwrite flag using :
+
+`prep -design picorv32a -tag <file_name> -overwrite`
+
+
 
 
 
