@@ -82,7 +82,12 @@ Here, we are doing condition related placement i.e we are not considering timing
 
 ![](DAY2/op10.png)
 
-We notice that in openLANE power distribution flow is created post floorplan, placement and CTS. While ASIC flow we observed that floor and pwer planning is done before placement.
+We notice that in openLANE power distribution flow is created post floorplan, placement and CTS. While in ASIC flow we observed that floor and pwer planning is done before placement.
+
+## DAY-3
+
+### Design library cell using Magic Layout and ngspice
+
 
 
 
