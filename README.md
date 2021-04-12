@@ -21,9 +21,9 @@ The day 1 started off with explanation of chip as a package and various MACROS i
 
 #### Invoking openLANE in interactive mode
 
-![](op1)
-![](op2)
-![](op3)
+![](op1.png)
+![](op2.png)
+![](op3.png)
 
 
 
