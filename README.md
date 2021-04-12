@@ -76,6 +76,13 @@ Here, we are doing condition related placement i.e we are not considering timing
 
 #### Envoke magic tool to view placement layout by providing lef, tech library and def file.
 
+![](DAY2/op11.png)
+
+#### Layout
+
+![](DAY2/op10.png)
+
+We notice that in openLANE power distribution flow is created post floorplan, placement and CTS. While ASIC flow we observed that floor and pwer planning is done before placement.
 
 
 
