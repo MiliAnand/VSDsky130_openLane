@@ -68,14 +68,14 @@ Then we fix the utilization factor, aspect ratio, the i/o pins and provide decap
 
 ![](DAY2/op8.png)
 
-Here, we are doing condition related placement i.e we are not considering timing. Placement occurs in two stages 1) global 2) detailed. To run placement use 
+Here, we are doing condition related placement i.e we are not considering timing. Placement occurs in two stages 1) global 2) detailed. In global placement there is no legalisation of cell positions i.e cells are placed in floorplan in random manner. While in latter there is legalisation i.e it makes sure that cells are not overlapping. The main objective is to reduce wire legnth and in openLANE we use HPWL (Half parameter wire legnth) cencept which must reduce. Therefore we see many interations when we run placement. To run placement use 
 
 `run_placement`
 
 
+1[](DAY2/op9.png)
 
-
- 
+#### Envoke magic tool to view placement layout by providing lef, tech library and def file.
 
 
 
