@@ -72,8 +72,7 @@ Here, we are doing condition related placement i.e we are not considering timing
 
 `run_placement`
 
-
-1[](DAY2/op9.png)
+![](DAY2/op9.png)
 
 #### Envoke magic tool to view placement layout by providing lef, tech library and def file.
 
