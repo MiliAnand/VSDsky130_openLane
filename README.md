@@ -23,7 +23,7 @@ The day 1 started off with explanation of chip as a package and various MACROS i
 
 ![](DAY1/op1.png)
 
-![](DAY1/op2.png)
+![](DAY1/op2png)
 
 #### Performing intial preprations for picorv32a
 
