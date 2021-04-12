@@ -76,7 +76,7 @@ Here, we are doing condition related placement i.e we are not considering timing
 
 #### Envoke magic tool to view placement layout by providing lef, tech library and def file.
 
-![](DAY2/op11.png)
+![](DAY2/op11a.png)
 
 #### Layout
 
