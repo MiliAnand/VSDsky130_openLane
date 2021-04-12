@@ -19,6 +19,12 @@ OpenLANE ASIC flow has several steps. The flow starts with design RTL and ends w
 ### Inception of opensource EDA tools, OpenLANE and Sky130 PDK
 The day 1 started off with explanation of chip as a package and various MACROS inside the chip. Then we had a brief introduction to RISK-V Instruction Set Architecture (ISA) followed by detailed explanation on how software interacts with hardware. Later we were given introduction to all components of open-source digital ASIC design such as HDL, RTL, IP's of the function that we want to implement, EDA tools and process design kit. Then we were givem a simplified RTLIIGDS flow i.e synthesis,  floor and power planning, placement, clock tree synthesis, signal routing and static timing analysis. After that we were given introduction to openLANE and strive chipsets followed by detailed ASIC design flow. Then we had a tour of OpenLANE directory structure in detail.
 
+#### Invoking openLANE in interactive mode
+
+![](op1)
+![](op2)
+![](op3)
+
 
 
 
