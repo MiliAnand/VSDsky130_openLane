@@ -116,6 +116,16 @@ To run the Magic tool first we need to copy `sky130A.tech` files to `vsdstdcelld
 
 ![](DAY3/op14.png)
 
+Envoke Magic tool using SKY130A tech file and inverter mag file using command:
+
+`magic -T sky130A.tech sky130.mag &`
+
+#### Layout
+
+![](DAY3/op16.png)
+
+
+
 
 
 
