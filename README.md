@@ -124,6 +124,31 @@ Envoke Magic tool using SKY130A tech file and inverter mag file using command:
 
 ![](DAY3/op16.png)
 
+#### Metal Layers
+
+![](DAY3/op17.png)
+
+If we observe the layout the DRC error are 0. If we make any changes and create an error ( for eg. delete N-well) then the DRC tab will not be 0. And the errors will be reflected on tkon window of Magic tool. We can also select the area by moving the cursor and pressing 's' and type 'what' in the tkon window which will the info of the particular area selected.
+
+![](DAY3/op18.png)
+
+#### Library characterisation
+In library characterisation we identify four parameters which are rise transition delay, fall transition delay, rise cell delay and fall cell delay. To understand these parameters we consider the above layout and extract SPICE netlist.
+
+#### Extracting SPICE Netlist
+
+![](DAY3/op19.png)
+
+#### Extracted SPICE netlist 
+
+![](DAY3/op20.png)
+
+
+
+
+
+
+
 
 
 
