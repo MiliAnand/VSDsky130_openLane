@@ -300,7 +300,7 @@ Then we write this to verilog file.
 
 Then we run floorplan, placement and CTS.
 
-![](DAT4/b5.png)
+![](DAY4/b5.png)
 `
 
 
