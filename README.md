@@ -112,8 +112,11 @@ Clone https://github.com/nickson-jose/vsdstdcelldesign repo to get the cell file
 
 To run the Magic tool first we need to copy `sky130A.tech` files to `vsdstdcelldesign` using command:
 
+![](DAY3/op13.png)
 
 ![](DAY3/op14.png)
+
+
 
 
 
