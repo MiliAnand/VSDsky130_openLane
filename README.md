@@ -139,9 +139,20 @@ In library characterisation we identify four parameters which are rise transitio
 
 ![](DAY3/op19.png)
 
+![](DAY3/op21.png)
+
 #### Extracted SPICE netlist 
 
 ![](DAY3/op20.png)
+
+#### Make these modifications
+
+![](DAY3/op23.png)
+
+#### Invoke ngspice
+`ngspice sky130_inv.spice`
+
+![](DAY3/op22.png)
 
 
 
