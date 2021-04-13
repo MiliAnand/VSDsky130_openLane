@@ -157,6 +157,43 @@ In library characterisation we identify four parameters which are rise transitio
 #### The plot of output vs time
  Use command `plot y vs time a`
  
+ ![](DAY3/op24.png)
+ 
+ We calculate the 4 parameters as part of library characterization:
+ * Rise transition delay = Time taken for the output signal to reach from 20% of max value to 80% of max value.
+ * Fall transition delat = Time taken for the output signal to reach from 80% of max value to 20% of max value.
+ * Cell rise delay = Time difference between 50% of rising output and 50% of falling output
+ * Cell fall delay = Time difference between 50% of falling output and 50% of rising output
+
+#### Examples
+Fall transition delay = 0.027ns
+
+![](DAY3/op25.png)
+
+Cell fall delay= 0.043ns
+
+![](DAY3/op26.png)
+
+![](DAY3/op27.png)
+
+Then we were given explanation on DRC rule. For more info https://skywater-pdk.readthedocs.io/en/latest/rules/periphery.html#m3
+
+## DAY-4
+### Pre-layout timing analysis and importance of good clock tree
+
+The day 4 started with the objective to extract lef file and plug it into picrov32a that is to develop a lef file for std cell library. But before that we need to make sure our layout follows the two main requirements for PnR tool:
+1. The i/p and o/p ports must lie on the intersection of vertical and horizontal tracks.
+2. The width of the std cell must be odd multiple of horizontal track pitch and height must be odd multiple of vertical track pitch.
+
+#### Grid in the layout
+
+To undestand this we first need to convert the grid size in the Magic tool window to the track pitch size. For that we observe the `tracks.info` file.
+
+Then we make some modication in grid structure.
+
+#### Modified grid structure
+ 
+ 
  
 
 
