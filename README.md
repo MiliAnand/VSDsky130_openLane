@@ -87,6 +87,28 @@ We notice that in openLANE power distribution flow is created post floorplan, pl
 ## DAY-3
 
 ### Design library cell using Magic Layout and ngspice
+The day 3 started of with the explanation on spice deck which basically gives the connectivity information, component values and how to identify nodes. We did static behavior evaluation of CMOS where we concluded that CMOS is a robust inverter. To plot the waveform on the we used ngspice. Following are steps for simulation on ngspice:
+1. Source the .cir spice deck file
+2. Run the spice file by: run
+3. Run: setplot which allows you to view in plot possible on simulation deck
+4. Select the simulation desired by entering the simulation name in the terminal 
+5. Then run: display to see nodes available
+6. Run: plot
+
+We also had detailed explanation on 16 Mask CMOS process steps:
+* Substrate selection
+* Creating an active region for transistor
+* Nwell and Pwell formation
+* Creating gate terminal
+* Lightly Doped Drain formation
+* Source and Drain formation
+* Creating contacts and local interconnections
+* Higher level metal formation
+
+#### LAB steps to create final SPICE deck using Sky130A
+Clone https://github.com/nickson-jose/vsdstdcelldesign to get the cell files.
+
+
 
 
 
