@@ -106,7 +106,18 @@ We also had detailed explanation on 16 Mask CMOS process steps:
 * Higher level metal formation
 
 #### LAB steps to create final SPICE deck using Sky130A
-Clone https://github.com/nickson-jose/vsdstdcelldesign to get the cell files.
+Clone https://github.com/nickson-jose/vsdstdcelldesign repo to get the cell files. This will give us the necessary .mag files
+
+[](DAY3/op12.png)
+
+To run the Magic tool first we need to copy `sky130A.tech` files to `vsdstdcelldesign` using command:
+
+
+![](DAY3/op14.png)
+
+
+
+
 
 
 
