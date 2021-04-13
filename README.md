@@ -257,7 +257,7 @@ We observe that the slack is too high. So as to reduce it by making changes in s
 
 We observe that slack has been significantly reduced. 
 
-Then we floorplan and placement. And invoke the Magic tool. 
+Then we floorplan and placement and invoke the Magic tool. 
 
 #### Layout
 
@@ -267,6 +267,17 @@ Then we floorplan and placement. And invoke the Magic tool.
 ![](DAY4/g20.png)
 
 ![](DAY4/g21.png)
+
+Then we copy `my_base` file from vsdstdcelldesign to picorv32a/src.
+![](DAY4/g22.png)
+
+Now we need to make sure slack violation is reduced. This is done by static timing analysis.So we carry out this in a seperate tool which is openSTA. Before that we make a pre_sta.conf file
+
+![](DAY4/g23.png)
+
+Then invoke openSTA by the file that we have created by command:
+`sta pre_sta.conf`
+![](DAY4/g24.png)
 
 
 
