@@ -282,7 +282,7 @@ Then invoke openSTA by the file that we have created by command:
 
 ![](DAY4/g24.png)
 
-We observe that the delay of this cell is large due to a high load capacitance due to high fanout. To fix this problem we can re-run synthesis within OpenLANE after reconfiguring the maximum fanout load value. We replace cell recursively until slack is less than -1.
+We observe that the delay of this cell is large due to a high load capacitance due to high fanout. To fix this problem we can re-run synthesis within OpenLANE after reconfiguring the maximum fanout load value. We replace buffer cell recursively until slack is less than -1.
 
 #### High fanout
 
@@ -293,6 +293,14 @@ We observe that the delay of this cell is large due to a high load capacitance d
 ![](DAY4/b2.png)
 
 ![](DAY4/b3.png)
+
+Then we write this to verilog file. 
+
+![](DAY4/b4.png)
+
+Then we run floorplan, placement and CTS.
+
+![](DAT4/b5.png)
 `
 
 
