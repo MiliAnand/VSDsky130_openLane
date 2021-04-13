@@ -192,7 +192,13 @@ To undestand this we first need to convert the grid size in the Magic tool windo
 Then we make some modication in grid structure.
 
 #### Modified grid structure
- 
+
+After observing the grid structure we notice that above requirements are met. We will pin use and its attributes. We will save the layout by custom name `sky13_vsdinv.mag` 
+Use command in tkon window:
+`save sky130_vsdinv.mag`
+
+
+
  
  
 
