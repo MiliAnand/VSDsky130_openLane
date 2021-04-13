@@ -245,10 +245,28 @@ Then before synthesis we will run the below commands. These are to include addit
 ![](DAY4/g15.png)
 
 #### Run Synthesis
+![](DAY4/g16.png)
 
-We observe that the slack is too high. So as to reduce it by making changes in some variables. We review our synthesis strategy and enable cell buffering. 
+We observe that the slack is too high. So as to reduce it by making changes in some variables. We review our synthesis strategy and enable cell buffering.
 
-Then we run synthesis again. 
+![](DAY4/g17.png)
+
+#### Run synthesis again.
+
+![](DAY4/g18.png)
+
+We observe that slack has been significantly reduced. 
+
+Then we floorplan and placement. And invoke the Magic tool. 
+
+#### Layout
+
+![](DAY4/g19.png)
+
+#### Custom cell
+![](DAY4/g20.png)
+
+![](DAY4/g21.png)
 
 
 
