@@ -277,8 +277,23 @@ Now we need to make sure slack violation is reduced. This is done by static timi
 
 Then invoke openSTA by the file that we have created by command:
 `sta pre_sta.conf`
+
+#### Slack report after sta
+
 ![](DAY4/g24.png)
 
+We observe that the delay of this cell is large due to a high load capacitance due to high fanout. To fix this problem we can re-run synthesis within OpenLANE after reconfiguring the maximum fanout load value. We replace cell recursively until slack is less than -1.
+
+#### High fanout
+
+![](DAY4/b1.png)
+
+#### Slack reports
+
+![](DAY4/b2.png)
+
+![](DAY4/b3.png)
+`
 
 
 
