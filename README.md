@@ -60,7 +60,7 @@ Then we fix the utilization factor, aspect ratio, the i/o pins and provide decap
 
 ![](DAY2/op6.png)
 
-#### Envoke the Magic tool to view the layout by proving lef, tech library and def file.
+#### Invoke the Magic tool to view the layout by proving lef, tech library and def file.
 
 ![](DAY2/op7.png)
 
@@ -74,7 +74,7 @@ Here, we are doing condition related placement i.e we are not considering timing
 
 ![](DAY2/op9.png)
 
-#### Envoke magic tool to view placement layout by providing lef, tech library and def file.
+#### Invoke magic tool to view placement layout by providing lef, tech library and def file.
 
 ![](DAY2/op11a.png)
 
@@ -82,7 +82,7 @@ Here, we are doing condition related placement i.e we are not considering timing
 
 ![](DAY2/op10.png)
 
-We notice that in openLANE power distribution flow is created post floorplan, placement and CTS. While in ASIC flow we observed that floor and pwer planning is done before placement.
+We notice that in openLANE power distribution flow is created post floorplan, placement and CTS. While in ASIC flow we observed that floor and power planning is done before placement.
 
 ## DAY-3
 
@@ -116,7 +116,7 @@ To run the Magic tool first we need to copy `sky130A.tech` files to `vsdstdcelld
 
 ![](DAY3/op14.png)
 
-Envoke Magic tool using SKY130A tech file and inverter mag file using command:
+Invoke Magic tool using SKY130A tech file and inverter mag file using command:
 
 `magic -T sky130A.tech sky130.mag &`
 
@@ -142,6 +142,8 @@ In library characterisation we identify four parameters which are rise transitio
 #### Extracted SPICE netlist 
 
 ![](DAY3/op20.png)
+
+
 
 
 
