@@ -230,13 +230,25 @@ This LEF file is then copied to picorv32a/src directory. Now we have to inclue t
 
 #### Reconfigure synthesis switches in config.tcl file
 
+![](DAY4/g13.png)
+
 Then we will invoke openLane in interactive mode and prep prep design in overwrite.
+
+![](DAY4/g14.png)
 
 Then before synthesis we will run the below commands. These are to include addition lef into the flow:
 
 `set lefs [glob $::env(DESIGN_DIR)/src/*.lef]`
 
 `add_lefs -src $lefs`
+
+![](DAY4/g15.png)
+
+#### Run Synthesis
+
+We observe that the slack is too high. So as to reduce it by making changes in some variables. We review our synthesis strategy and enable cell buffering. 
+
+Then we run synthesis again. 
 
 
 
