@@ -209,11 +209,18 @@ Use command in tkon window:
 
 ![](DAY4/g4.png)
 
-Envoke the tech file and new mag file that we saved in the Magic tool. Convert the std cell layout to LEF file
+Envoke the tech file and new mag file that we saved in the Magic tool. Convert the std cell layout to LEF file.
 
+![](DAY4/g6.png)
 
- 
- 
+![](DAY4/g7.png)
+
+#### LEF file
+
+![](DAY4/g8.png)
+
+This LEF file is then copied to picorv32a/src directory. Now we have to inclue the custom cell into openLANE flow and the first stage in the openLANE flow is synthesis. So for that we have to make sure that *abc* maps the netlist into the library. We nee dto have a library which has our cell deifinition for synthesis. These libraries are in `vsdstdcelldesign` lib directory. And we copy them to our picorv32a/src directory. These lib files are for different corner for different temperature and voltage values.
+
 
 
 
