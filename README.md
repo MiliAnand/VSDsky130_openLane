@@ -209,6 +209,7 @@ Use command in tkon window:
 
 ![](DAY4/g4.png)
 
+Envoke the tech file and new mag file that we saved in the Magic tool. Convert the std cell layout to LEF file
 
 
  
