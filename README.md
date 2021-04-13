@@ -221,6 +221,23 @@ Envoke the tech file and new mag file that we saved in the Magic tool. Convert t
 
 This LEF file is then copied to picorv32a/src directory. Now we have to inclue the custom cell into openLANE flow and the first stage in the openLANE flow is synthesis. So for that we have to make sure that *abc* maps the netlist into the library. We nee dto have a library which has our cell deifinition for synthesis. These libraries are in `vsdstdcelldesign` lib directory. And we copy them to our picorv32a/src directory. These lib files are for different corner for different temperature and voltage values.
 
+![](DAY4/g9.png)
+
+![](DAY4/g10.png)
+
+![](DAY4/g11.png)
+
+
+#### Reconfigure synthesis switches in config.tcl file
+
+Then we will invoke openLane in interactive mode and prep prep design in overwrite.
+
+Then before synthesis we will run the below commands. These are to include addition lef into the flow:
+
+`set lefs [glob $::env(DESIGN_DIR)/src/*.lef]`
+
+`add_lefs -src $lefs`
+
 
 
 
