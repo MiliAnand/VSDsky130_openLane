@@ -154,6 +154,12 @@ In library characterisation we identify four parameters which are rise transitio
 
 ![](DAY3/op22.png)
 
+#### The plot of output vs time
+ Use command `plot y vs time a`
+ 
+ 
+
+
 
 
 
