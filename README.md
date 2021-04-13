@@ -197,6 +197,7 @@ To undestand this we first need to convert the grid size in the Magic tool windo
 
 Then we make some modification in grid structure.
 
+![](DAY4/g3.png)
 
 #### Modified grid structure
 
@@ -206,7 +207,7 @@ After observing the grid structure we notice that above two requirements are met
 Use command in tkon window:
 `save sky130_vsdinv.mag`
 
-
+![](DAY4/g4.png)
 
 
 
