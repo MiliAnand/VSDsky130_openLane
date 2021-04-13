@@ -187,15 +187,26 @@ The day 4 started with the objective to extract lef file and plug it into picrov
 
 #### Grid in the layout
 
+![](DAY4/g1.png)
+
 To undestand this we first need to convert the grid size in the Magic tool window to the track pitch size. For that we observe the `tracks.info` file.
 
-Then we make some modication in grid structure.
+![](DAY4/t1.png)
+
+![](DAY4/t2.png)
+
+Then we make some modification in grid structure.
+
 
 #### Modified grid structure
 
-After observing the grid structure we notice that above requirements are met. We will pin use and its attributes. We will save the layout by custom name `sky13_vsdinv.mag` 
+![](DAY4/g2.png)
+
+After observing the grid structure we notice that above two requirements are met. We will define pin use and its attributes. We will save the layout by custom name `sky13_vsdinv.mag` 
 Use command in tkon window:
 `save sky130_vsdinv.mag`
+
+
 
 
 
